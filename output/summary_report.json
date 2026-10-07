@@ -1,0 +1,51 @@
+{
+    "run": {
+        "fetch_book_details": true,
+        "delay_seconds": 0.5,
+        "max_pages": null,
+        "started_at": "2026-10-07T02:54:13+00:00",
+        "finished_at": "2026-10-07T03:13:49+00:00",
+        "duration_seconds": 1176.5
+    },
+    "sources": {
+        "Books to Scrape": {
+            "collected": 1000,
+            "cleaned": 1000,
+            "rejected_total": 0,
+            "rejected_by_reason": {},
+            "duplicates_detected": 0,
+            "duplicate_examples": [],
+            "final_count": 1000,
+            "error": null,
+            "scraper_stats": {
+                "pages_scraped": 50,
+                "pages_failed": 0,
+                "record_errors": 0,
+                "detail_failures": 0
+            }
+        },
+        "Quotes to Scrape": {
+            "collected": 100,
+            "cleaned": 100,
+            "rejected_total": 0,
+            "rejected_by_reason": {},
+            "duplicates_detected": 0,
+            "duplicate_examples": [],
+            "final_count": 100,
+            "error": null,
+            "scraper_stats": {
+                "pages_scraped": 10,
+                "pages_failed": 0,
+                "record_errors": 0
+            }
+        }
+    },
+    "totals": {
+        "collected": 1100,
+        "cleaned": 1100,
+        "rejected": 0,
+        "duplicates_detected": 0,
+        "final_record_count": 1100
+    },
+    "counts_reconcile": true
+}
